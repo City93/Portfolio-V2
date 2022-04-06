@@ -1,0 +1,53 @@
+nav{
+    width: 271px;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    display:flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+
+    background-color: #212531;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid green;
+    height: 50rem;
+    width: 200px;
+}
+li{
+    font-family: 'League Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 28px;
+    text-align: center;
+    /* border: 1px solid red; */
+
+    color: white;
+
+    list-style-type: none;
+}
+#avatar{
+    width: 175px;
+    height: 175px;
+    border-radius: 100%;
+    background-color: #2C354A;
+}
+.line{
+    height: 1px;
+}
+.socialMedia{
+    height: 66px;
+    width: 155px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.socialMedia img{
+    width: 66px;
+    height: auto;
+    display: block;
+}
