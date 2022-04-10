@@ -1,0 +1,33 @@
+.home{
+    background-color:#2C354A;
+    height: 100vh;
+    font-family: 'League Spartan', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 403px;
+}
+#name{
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 74px;
+
+    margin: 0;
+    margin-bottom: 40px;
+
+    color: #FFFFFF;
+}
+#role{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 28px;
+
+    margin: 0;
+    margin-bottom: 30px;
+
+    color: #FFFFFF;
+}

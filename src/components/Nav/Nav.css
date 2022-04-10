@@ -13,9 +13,10 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     height: 50rem;
     width: 200px;
+    padding: 0;
 }
 li{
     font-family: 'League Spartan', sans-serif;
@@ -24,6 +25,7 @@ li{
     font-size: 30px;
     line-height: 28px;
     text-align: center;
+    align-self: center;
     /* border: 1px solid red; */
 
     color: white;
@@ -37,13 +39,18 @@ li{
     background-color: #2C354A;
 }
 .line{
-    height: 1px;
+    height: 1px;    
+}
+.linePosition{
+    /* border: 1px solid green; */
+    margin-top: -93px;
 }
 .socialMedia{
     height: 66px;
     width: 155px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     
 }
 .socialMedia img{

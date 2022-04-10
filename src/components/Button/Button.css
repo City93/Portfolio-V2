@@ -1,0 +1,25 @@
+button{
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #2C344A;
+    background-color: #63DBCD;
+    border-radius: 40px;
+    border: 0;
+
+    width: 213px;
+    height: 59px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow{
+    width: 23px;
+    height: 23px;
+    margin-left: 10px;
+}
